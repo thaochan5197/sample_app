@@ -1,4 +1,3 @@
-// Action Cable provides the framework to deal with WebSockets in
 //= require action_cable
 //= require_self
 //= require_tree ./channels
