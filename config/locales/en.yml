@@ -19,5 +19,6 @@ en:
       title: "About"
       name: "About"
       content: "The Ruby on Rails Tutorial is a book and screencast series to teach web development with Ruby on Rails. This is the sample application for the tutorial. "
-
+  helpers:
+    helper_title: "Ruby on Rails Tutorial Sample App"
 
