@@ -1,0 +1,21 @@
+vi:
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      name: "Sample app"
+      content: "Đây là trang chủ của Ruby on Rails Tutorial ứng dụng mẫu."
+    help:
+      title: "Trợ giúp"
+      name: "Trợ giúp"
+      content: "Nhận trợ giúp về the Ruby on Rails Tutorial tại Ruby on Rails Tutorial. Để được trợ giúp về sample app, hãy xem Ruby on Rails Tutorial book. "
+    contact:
+      title: "Liên hệ"
+      name: "Liên hệ"
+      content: "Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ. "
+    about:
+      title: "Về chúng tôi"
+      name: "Về chúng tôi"
+      content: "Ruby On Rails, Tutorial là một quyển sách và screencast series để hướng dẫn phát triển ứng dựng web với Ruby on Rails . Đầy là một ứng dụng mẫu cho bài học."
