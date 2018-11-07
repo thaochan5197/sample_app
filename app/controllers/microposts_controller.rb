@@ -4,12 +4,13 @@ class MicropostsController < ApplicationController
 
   def create
     @micropost = current_user.microposts.build micropost_params
-    
+
     if @micropost.save
       flash[:success] = t ".post_created"
       redirect_to root_url
     else
-      @feed_items = current_user.feed.sorted.page(params[:page]).per Settings.number_of_post
+      @feed_items = current_user.feed.sorted.page(params[:page])
+                                .per Settings.number_of_post
       render "static_pages/home"
     end
   end
@@ -18,7 +19,7 @@ class MicropostsController < ApplicationController
     if @micropost.destroy
       flash[:success] = t ".post_deleted"
       redirect_to request.referrer || root_url
-    else 
+    else
       flash.now[:danger] = t ".can_not_delete"
       render "static_pages/home"
     end
