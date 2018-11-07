@@ -12,6 +12,19 @@ $gray-raw: #bbb;
   box-sizing: border-box;
 }
 
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* universal */
 
 body {
@@ -164,4 +177,17 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin: -10px 0 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
