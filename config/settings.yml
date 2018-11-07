@@ -1,3 +1,4 @@
-maximun_email: 255
+maximum_email: 255
 maximum_name: 50
 maximum_password: 6
+avatar_size: 80

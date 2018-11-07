@@ -37,4 +37,12 @@ en:
     new:
       name: "Sign up"
       content: "This will be a signup page for new users."
-
+      signup: "Sign up"
+    create:
+      greeting: "Welcome to the Sample App!"
+    show:
+      warning: "Can not find user"
+  shared:
+    error_messages:
+      contains: "The form contains"
+      error: "error"

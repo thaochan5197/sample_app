@@ -33,3 +33,16 @@ vi:
       title: "Về chúng tôi"
       name: "Về chúng tôi"
       content: "Ruby On Rails, Tutorial là một quyển sách và screencast series để hướng dẫn phát triển ứng dựng web với Ruby on Rails . Đầy là một ứng dụng mẫu cho bài học."
+  users:
+    new:
+      name: "Sign up"
+      content: "This will be a signup page for new users."
+      signup: "Sign up"
+    create:
+      greeting: "Welcome to the Sample App!"
+    show:
+      warning: "Can not find user"
+  shared:
+    error_messages:
+      contains: "The form contains"
+      error: "error"
