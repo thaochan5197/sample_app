@@ -71,19 +71,41 @@ en:
       new_user: "New user?"
       signup_button: "Sign up now?"
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       danger_mess: "Invalid email/password combination"
       success_mess: "Log in success!"
       warning: "Can not find user"
       not_activated: "Account not activated. Check your email for the activation link."
   activation_account: "Account activation"
+  password_reset: "Password reset"
   user_mailer:
     account_activation:
       title: "Sample App"
       greeting: "Hi"
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      title: "Password reset"
+      name: "To reset your password click the link below:"
+      expire_notice: "This link will expire in two hours."
+      ignore_notice: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
   account_activations:
     edit:
       activated: "Account activated!"
       invalid: "Invalid activation link"
+  password_resets:
+    create:
+      notice: "Email sent with password reset instruction" 
+      invalid_email: "Email address not found"
+      empty_error: "can't be empty"
+      reset_success: "Password has been reset."
+      reset_expired: "Password reset has expired."
+      danger: "Can not find user"
+    edit:
+      title: "Reset password"
+      update_password: "Update password"
+    new:
+      title: "Forgot password"
+      submit: "Submit"
