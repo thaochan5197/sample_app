@@ -120,11 +120,12 @@ your password will stay as it is."
   microposts: 
     create: 
       post_created: "Micropost created!"
-      warning: "should be less than 5MB"
-      post_deleted: "Micropost deleted"
+      warning: "should be less than 5MB"   
     destroy:
       not_found: "Can not find"
+      can_not_delete: "Can not delete post"
+      post_deleted: "Micropost deleted"
     micropost:
       confirm: "You sure?"
       delete: "delete"
-    
+      posted: "Posted"
