@@ -19,3 +19,5 @@ vi:
       title: "Về chúng tôi"
       name: "Về chúng tôi"
       content: "Ruby On Rails, Tutorial là một quyển sách và screencast series để hướng dẫn phát triển ứng dựng web với Ruby on Rails . Đầy là một ứng dụng mẫu cho bài học."
+  helpers:
+      helper_title: "Ruby on Rails Tutorial Sample App"
