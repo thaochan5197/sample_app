@@ -1,12 +1,26 @@
 vi:
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
+      helper_title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      by: "bởi"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      Login: "Đặng nhập"
+      name_icon: "Sample app"
   static_pages:
     home:
       title: "Trang chủ"
       name: "Sample app"
+      greeting: "Chào mừng đến với Sample App"
       content: "Đây là trang chủ của Ruby on Rails Tutorial ứng dụng mẫu."
+      signup: "Đăng ký ngay!"
     help:
       title: "Trợ giúp"
       name: "Trợ giúp"
@@ -19,5 +33,3 @@ vi:
       title: "Về chúng tôi"
       name: "Về chúng tôi"
       content: "Ruby On Rails, Tutorial là một quyển sách và screencast series để hướng dẫn phát triển ứng dựng web với Ruby on Rails . Đầy là một ứng dụng mẫu cho bài học."
-  helpers:
-      helper_title: "Ruby on Rails Tutorial Sample App"
