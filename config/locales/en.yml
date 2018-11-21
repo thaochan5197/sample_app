@@ -10,10 +10,15 @@ en:
     header:
       home: "Home"
       help: "Help"
-      Login: "Log in"
+      login: "Log in"
       name_icon: "Sample app"
-      english: "Tiếng Việt"
+      users: "Users"
+      account: "Account"
+      settings: "Settings"
+      profile: "Profile"
+      english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+      logout: "Log out"
   static_pages:
     home:
       title: "Home"
@@ -42,7 +47,20 @@ en:
       greeting: "Welcome to the Sample App!"
     show:
       warning: "Can not find user"
+    edit:
+      title: "Edit user"
+      name: "Update your profile"
+      save_change: "Save changes"
+      change: "change"
   shared:
     error_messages:
       contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      title: "Log in"
+      new_user: "New user?"
+      signup_button: "Sign up now?"
+    create:
+      danger_mess: "Invalid email/password combination"
+      success_mess: "Log in success!"
