@@ -43,6 +43,7 @@ en:
       name: "Sign up"
       content: "This will be a signup page for new users."
       signup: "Sign up"
+      create: "Create my account"
     create:
       greeting: "Welcome to the Sample App!"
     show:
@@ -61,6 +62,7 @@ en:
       title: "Log in"
       new_user: "New user?"
       signup_button: "Sign up now?"
+      remember_me: "Remember me on this computer"
     create:
       danger_mess: "Invalid email/password combination"
       success_mess: "Log in success!"
