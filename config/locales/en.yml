@@ -39,13 +39,16 @@ en:
       name: "About"
       content: "The Ruby on Rails Tutorial is a book and screencast series to teach web development with Ruby on Rails. This is the sample application for the tutorial. "
   users:
+    index:
+      request: "Please log in."
+      title: "All users"
     new:
+      title: "Sign up"
       name: "Sign up"
       content: "This will be a signup page for new users."
-      signup: "Sign up"
       create: "Create my account"
     create:
-      greeting: "Welcome to the Sample App!"
+      check_notice: "Please check your email to activate your account."
     show:
       warning: "Can not find user"
     edit:
@@ -53,6 +56,11 @@ en:
       name: "Update your profile"
       save_change: "Save changes"
       change: "change"
+      warning: "Can not find user"
+    update: 
+      updated: "Profile updated"
+    destroy:
+      success: "User deleted"
   shared:
     error_messages:
       contains: "The form contains"
@@ -66,3 +74,4 @@ en:
     create:
       danger_mess: "Invalid email/password combination"
       success_mess: "Log in success!"
+      warning: "Can not find user"

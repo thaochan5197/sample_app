@@ -1,5 +1,7 @@
 maximum_email: 255
 maximum_name: 50
-maximum_password: 6
+minimum_password: 6
 avatar_size: 80
 remember_active: "1"
+user_avatar: 50
+number_of_page: 20
