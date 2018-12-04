@@ -48,7 +48,7 @@ en:
       content: "This will be a signup page for new users."
       create: "Create my account"
     create:
-      greeting: "Welcome to the Sample App!"
+      check_notice: "Please check your email to activate your account."
     show:
       warning: "Can not find user"
     edit:
@@ -75,3 +75,15 @@ en:
       danger_mess: "Invalid email/password combination"
       success_mess: "Log in success!"
       warning: "Can not find user"
+      not_activated: "Account not activated. Check your email for the activation link."
+  activation_account: "Account activation"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      greeting: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"

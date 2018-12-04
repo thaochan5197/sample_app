@@ -1,13 +1,19 @@
 class SessionsController < ApplicationController
-  before_action :fetch_current_user, only: :create
-
   def new; end
 
   def create
+    user = User.find_by email: params[:session][:email].downcase
+    
     if user&.authenticate(params[:session][:password])
-      log_in user
-      flash.now[:success] = t ".success_mess"
-      redirect_back_or user
+      if user.activated?
+        log_in user
+        remember_session user
+        flash[:success] = t ".success_mess"
+        redirect_back_or user
+      else
+        flash[:warning] = t ".not_activated"
+        redirect_to root_url
+      end
     else
       flash.now[:danger] = t ".danger_mess"
       render :new
@@ -21,16 +27,11 @@ class SessionsController < ApplicationController
 
   private
 
-  def fetch_current_user
-    user = User.find_by email: params[:session][:email].downcase
-    flash[:danger] = t ".warning" unless user
-  end
-
   def remember_session user
     if params[:session][:remember_me] == Settings.remember_active
       remember user
     else
-      forget_user
+      forget user
     end
   end
 end
