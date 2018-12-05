@@ -2,6 +2,7 @@ en:
   layouts:
     application:
       helper_title: "Ruby on Rails Tutorial Sample App"
+      request: "Please log in."
     footer:
       by: "by"
       about: "About"
@@ -22,7 +23,8 @@ en:
   static_pages:
     home:
       title: "Home"
-      name: "Sample app"
+      name: "Micropost Feed"
+      sample_app: "sample application."
       greeting: "Welcome to the Sample App"
       content: "This is the home page for the Ruby on Rails Tutorial sample application."
       signup: "Sign up now!"
@@ -51,6 +53,7 @@ en:
       check_notice: "Please check your email to activate your account."
     show:
       warning: "Can not find user"
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       name: "Update your profile"
@@ -65,25 +68,63 @@ en:
     error_messages:
       contains: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+    micropost_form:
+      compose: "Compose new micropost..."
+      submit: "Post"
   sessions:
     new:
       title: "Log in"
       new_user: "New user?"
       signup_button: "Sign up now?"
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       danger_mess: "Invalid email/password combination"
       success_mess: "Log in success!"
       warning: "Can not find user"
       not_activated: "Account not activated. Check your email for the activation link."
   activation_account: "Account activation"
+  password_reset: "Password reset"
   user_mailer:
     account_activation:
       title: "Sample App"
       greeting: "Hi"
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      title: "Password reset"
+      name: "To reset your password click the link below:"
+      expire_notice: "This link will expire in two hours."
+      ignore_notice: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
   account_activations:
     edit:
       activated: "Account activated!"
       invalid: "Invalid activation link"
+  password_resets:
+    create:
+      notice: "Email sent with password reset instruction" 
+      invalid_email: "Email address not found"
+      empty_error: "can't be empty"
+      reset_success: "Password has been reset."
+      reset_expired: "Password reset has expired."
+      danger: "Can not find user"
+    edit:
+      title: "Reset password"
+      update_password: "Update password"
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+  microposts: 
+    create: 
+      post_created: "Micropost created!"
+      warning: "should be less than 5MB"
+      post_deleted: "Micropost deleted"
+    destroy:
+      not_found: "Can not find"
+    micropost:
+      confirm: "You sure?"
+      delete: "delete"
+    
