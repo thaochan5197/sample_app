@@ -2,6 +2,7 @@ en:
   layouts:
     application:
       helper_title: "Ruby on Rails Tutorial Sample App"
+      request: "Please log in."
     footer:
       by: "by"
       about: "About"
@@ -22,7 +23,8 @@ en:
   static_pages:
     home:
       title: "Home"
-      name: "Sample app"
+      name: "Micropost Feed"
+      sample_app: "sample application."
       greeting: "Welcome to the Sample App"
       content: "This is the home page for the Ruby on Rails Tutorial sample application."
       signup: "Sign up now!"
@@ -51,6 +53,7 @@ en:
       check_notice: "Please check your email to activate your account."
     show:
       warning: "Can not find user"
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       name: "Update your profile"
@@ -65,6 +68,11 @@ en:
     error_messages:
       contains: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+    micropost_form:
+      compose: "Compose new micropost..."
+      submit: "Post"
   sessions:
     new:
       title: "Log in"
@@ -109,3 +117,14 @@ your password will stay as it is."
     new:
       title: "Forgot password"
       submit: "Submit"
+  microposts: 
+    create: 
+      post_created: "Micropost created!"
+      warning: "should be less than 5MB"
+      post_deleted: "Micropost deleted"
+    destroy:
+      not_found: "Can not find"
+    micropost:
+      confirm: "You sure?"
+      delete: "delete"
+    

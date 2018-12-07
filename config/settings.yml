@@ -6,3 +6,5 @@ remember_active: "1"
 user_avatar: 50
 number_of_page: 20
 expired_time: 2
+maximum_length_content: 140
+size_picture: 5
