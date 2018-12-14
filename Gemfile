@@ -12,16 +12,16 @@ gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", "1.7.3"
 gem "figaro"
+gem "i18n-js"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
-gem "i18n-js"
 gem "kaminari"
 gem "mini_magick", "4.7.0"
 gem "puma", "~> 3.11"
 gem "rails-i18n"
+gem "rake"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
-gem "rake"
 
 group :development, :test do
   gem "byebug", platforms: %i(mri mingw x64_mingw)

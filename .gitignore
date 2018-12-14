@@ -44,3 +44,5 @@ vendor/bundle/*
 /config/application.yml
 
 /public/uploads/*
+
+/public/javascripts/translations.js

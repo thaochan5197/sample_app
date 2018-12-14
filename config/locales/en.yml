@@ -64,6 +64,13 @@ en:
       updated: "Profile updated"
     destroy:
       success: "User deleted"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      view_profile: "view my profile"
+      microposts: "Microposts:"
   shared:
     error_messages:
       contains: "The form contains"
@@ -73,6 +80,9 @@ en:
     micropost_form:
       compose: "Compose new micropost..."
       submit: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       title: "Log in"
@@ -108,7 +118,6 @@ your password will stay as it is."
       notice: "Email sent with password reset instruction" 
       invalid_email: "Email address not found"
       empty_error: "can't be empty"
-      reset_success: "Password has been reset."
       reset_expired: "Password reset has expired."
       danger: "Can not find user"
     edit:
@@ -117,6 +126,8 @@ your password will stay as it is."
     new:
       title: "Forgot password"
       submit: "Submit"
+    update: 
+      reset_success: "Password has been reset."
   microposts: 
     create: 
       post_created: "Micropost created!"
@@ -129,3 +140,9 @@ your password will stay as it is."
       confirm: "You sure?"
       delete: "delete"
       posted: "Posted"
+  followings:
+    index:
+      following: "Following"
+  followers:
+    index:
+      followers: "Followers"
